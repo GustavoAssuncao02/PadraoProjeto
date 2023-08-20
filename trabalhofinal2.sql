@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 18-Jul-2023 às 02:32
+-- Tempo de geração: 20-Ago-2023 às 22:00
 -- Versão do servidor: 10.4.24-MariaDB
 -- versão do PHP: 7.4.29
 
@@ -18,37 +18,39 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `trabalhofinal`
+-- Banco de dados: `projeto_final`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `usuarios`
+-- Estrutura da tabela `trabalhofinal`
 --
 
-CREATE TABLE `usuarios` (
+CREATE TABLE `trabalhofinal` (
   `id` int(11) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  `nome` varchar(100) NOT NULL,
-  `senha` varchar(100) NOT NULL
+  `nome` varchar(50) NOT NULL,
+  `senha` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `dataNascimento` date NOT NULL,
+  `cpf` varchar(45) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Extraindo dados da tabela `usuarios`
+-- Extraindo dados da tabela `trabalhofinal`
 --
 
-INSERT INTO `usuarios` (`id`, `email`, `nome`, `senha`) VALUES
-(1, 'joao@example.com', 'João', '123456');
+INSERT INTO `trabalhofinal` (`id`, `nome`, `senha`, `email`, `dataNascimento`, `cpf`) VALUES
+(1, 'dasdas', 'dsadada', 'dsadasda', '1111-11-11', '111.111.111-11');
 
 --
 -- Índices para tabelas despejadas
 --
 
 --
--- Índices para tabela `usuarios`
+-- Índices para tabela `trabalhofinal`
 --
-ALTER TABLE `usuarios`
+ALTER TABLE `trabalhofinal`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -56,9 +58,9 @@ ALTER TABLE `usuarios`
 --
 
 --
--- AUTO_INCREMENT de tabela `usuarios`
+-- AUTO_INCREMENT de tabela `trabalhofinal`
 --
-ALTER TABLE `usuarios`
+ALTER TABLE `trabalhofinal`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
