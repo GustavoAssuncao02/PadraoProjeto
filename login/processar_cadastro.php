@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     
     $conn = $dbConnection->getConnection();
 
-    $query = "INSERT INTO projeto_final.trabalhoFinal (nome, senha, email, dataNascimento, cpf) VALUES (?, ?, ?, ?, ?)";
+    $query = "INSERT INTO projeto_final.trabalhofinal (nome, senha, email, dataNascimento, cpf) VALUES (?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($query);
     $stmt->bind_param("sssss", $nome, $senha, $email, $data, $cpf);
 

@@ -45,7 +45,7 @@ section {
 .back {
   background: lightslategray;
   transform: rotateY(180deg);
-  margin-top: 100px;
+  
 }
 
 .flipped .front {
@@ -231,3 +231,4 @@ section {
 .title {
   margin-top: 30px;
 }
+
