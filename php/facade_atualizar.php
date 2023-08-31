@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     exit;
 }
 
-echo "Nome: $nomeAtualizado, Email: $emailAtualizado, Data de Nascimento: $dataNascimentoAtualizado, Senha: $senhaAtualizado";
+
 
 
 

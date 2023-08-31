@@ -16,7 +16,6 @@ class Facade
     {
         $this->adminHandler = new AdminAuthenticationHandler();
         $this->userHandler = new UserAuthenticationHandler();
-
         // Configure a cadeia de responsabilidade
         $this->adminHandler->setSuccessor($this->userHandler);
         $this->cadastroStrategy = new CadastroPadrao();
