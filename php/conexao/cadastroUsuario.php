@@ -1,8 +1,7 @@
 <?php
-require_once "cadastrosStrategy.php";
-require_once "cadastroStrategy.php";
-require_once "cadastrosStrategy.php";
-require_once "facade.php";
+require_once "../padroes/cadastrosStrategy.php";
+require_once "../padroes/cadastroStrategy.php";
+require_once "../padroes/facade.php";
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $nome = $_POST["nome"];
@@ -12,5 +11,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $cpf = $_POST["cpf"];
 
     $novoUsuario = new Facade();
-    $novoUsuario->cadastrarAdm($nome, $senha, $email, $data, $cpf);
+    $novoUsuario->cadastrarUsuario($nome, $senha, $email, $data, $cpf);
 }

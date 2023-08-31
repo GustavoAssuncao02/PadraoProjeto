@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
-  <link rel="stylesheet" href="../css/cadastroelogin.css">
+  <link rel="stylesheet" href="../../css/cadastroelogin.css">
 </head>
 
 <body>
@@ -42,8 +42,8 @@
               <input type="text" name="cpf" id="cpf" maxlength="14" required>
             </div>
             <div class="button-container">
-          <button type="submit" id="buttonCadastro" class="flex-button" formaction="cadastroUsuario.php">Cadastrar</button>
-          <button type="submit" id="buttonCadastro" formaction="cadastroAdm.php">Cadastrar adiministrador</button></div>
+          <button type="submit" id="buttonCadastro" class="flex-button" formaction="../conexao/cadastroUsuario.php">Cadastrar</button>
+          <button type="submit" id="buttonCadastro" formaction="../conexao/cadastroAdm.php">Cadastrar adiministrador</button></div>
         </form>
         
         <label class="cadastrar">Já é Cadastrado? Então Clique Aqui:</label>
@@ -53,8 +53,8 @@
       <!-- Lado do Card do Login -->
       <div class="back">
         <h2 class="title"><i>Entrar na Conta</i></h2>
-        <img id="imagemLogin" src="../img/PerfilLogin.png" alt="IconLogin">
-        <form id="formLogin" action="realizarLogin.php" method="POST">
+        <img id="imagemLogin" src="../../img/PerfilLogin.png" alt="IconLogin">
+        <form id="formLogin" action="../requisicoes/realizarLogin.php" method="POST">
           <div class="usernamelog">
             <label id="title" for="nomelog">E-mail de Usuário</label>
             <br>
@@ -66,12 +66,14 @@
             <br>
             <input id="senhalog" name="senha" type="password" placeholder="Senha" required>
             <br>
-            <div class="button-container">
+            <div class="button-containeer">
               <button type="submit" id="buttonLogin">Entrar</button>
+              <br>
               <button id="flipBackButton">Cadastre-se</button>
               <br>
               <br>
-              <label class="cadastro"><i>Se Não For Cadastrado em nosso Site <br> Clique no Botão Cadastre-se</i></label>
+              <label class="cadastro">Se Não For Cadastrado em nosso Site <br> Clique no Botão Cadastre-se</label>
+
             </div>
           </div>
         </form>
@@ -79,6 +81,6 @@
     </div>
   </section>
 
-  <script src="../js/script.js"></script>
+  <script src="../../js/script.js"></script>
 </body>
 </html>

@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Gustavo Assunção da Silva e Pedro Lucas N. de Aguiar">
-    <link rel="stylesheet" href="../css/estiloperfil.css">
+    <link rel="stylesheet" href="../../css/estiloperfil.css">
     <title>Perfil do Usuário</title>
 </head>
 <body>
@@ -38,8 +38,8 @@
                     <th>Deletar User</th>
                 </tr>
                 <?php
-                require_once "conect.php";
-                require_once "AdminAuthenticationHandler.php";
+                require_once "../conexao/conect.php";
+                require_once "../padroes/AdminAuthenticationHandler.php";
                 
                 $dbConnection = DatabaseConnection::getInstance()->getConnection();
                 $query = "SELECT id, nome, email, cpf, dataNascimento, senha FROM projeto_final.trabalhofinal";
@@ -53,7 +53,7 @@
                         echo "<td>" . $row["cpf"] . "</td>";
                         echo "<td>" . $row["dataNascimento"] . "</td>";
                         echo "<td>" . $row["senha"] . "</td>";
-                        echo "<td><a href='realizarExclusao.php?id=" . $row["id"] . "'>Excluir</a></td>";
+                        echo "<td><a href='../requisicoes/realizarExclusao.php?id=" . $row["id"] . "'>Excluir</a></td>";
                         echo "</tr>";
                     }
                 } else {

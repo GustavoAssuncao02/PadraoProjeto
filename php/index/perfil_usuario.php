@@ -1,5 +1,5 @@
 <?php
-require_once "LogSingleton.php";
+require_once "../padroes/LogSingleton.php";
 
 if (isset($_GET["email"])) {
     $email_usuario_autenticado = $_GET["email"];
@@ -13,7 +13,7 @@ function hidePassword($password) {
     return str_repeat('*', $length);
 }
 
-require_once "conect.php";
+require_once "../conexao/conect.php";
 $dbConnection = DatabaseConnection::getInstance()->getConnection();
 $query = "SELECT * FROM projeto_final.trabalhofinal WHERE email = ?";
 $stmt = $dbConnection->prepare($query);
@@ -39,7 +39,7 @@ if ($resultado->num_rows === 1) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Gustavo Assunção da Silva e Pedro Lucas N. de Aguiar">
-    <link rel="stylesheet" href="../css/estiloperfil.css">
+    <link rel="stylesheet" href="../../css/estiloperfil.css">
     <title>Perfil do Usuário</title>
 </head>
 <body>
@@ -93,7 +93,7 @@ if ($resultado->num_rows === 1) {
 
     <script>
         function sair() {
-            window.location.href = "../html/index.html";
+            window.location.href = "../../html/index.html";
         }
 
         document.querySelector(".botao-sair").addEventListener("click", function(event) {
@@ -126,7 +126,7 @@ if ($resultado->num_rows === 1) {
             formData.append("dataNascimento", novoDataNascimento);
             formData.append("senha", novoSenha);
 
-            fetch('realizarEdicao.php', { method: 'POST', body: formData })
+            fetch('../requisicoes/realizarEdicao.php', { method: 'POST', body: formData })
                 .then(response => {
                     if (response.ok) {
                         console.log("Dados atualizados com sucesso!");

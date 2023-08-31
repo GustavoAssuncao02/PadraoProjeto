@@ -1,8 +1,7 @@
 <?php
-require_once "conect.php";
-require_once 'facade.php';
-require_once 'conect.php';
-require_once 'LogSingleton.php';
+require_once "../conexao/conect.php";
+require_once '../padroes/facade.php';
+require_once '../padroes/LogSingleton.php';
 require_once 'editarUsuario.php';
 require_once "Login.php";
 

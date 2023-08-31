@@ -60,11 +60,11 @@ section {
 
 .button-container {
   display: flex;
-  justify-content: center; /* Opcional: centraliza os botões horizontalmente */
+  justify-content: center; 
 }
 
 .flex-button {
-  margin: 5px; /* Opcional: para espaçamento entre os botões */
+  margin: 5px; 
 }
 
 #login-form {
@@ -207,7 +207,7 @@ section {
   border-radius: 3px;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 #buttonLogin {
@@ -241,3 +241,26 @@ section {
   margin-top: 30px;
 }
 
+.button-containeer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px; 
+}
+
+.button-containeer button {
+  margin: 0px 0;
+  padding: 10px 20px;
+  background-color: #eaeaea;
+  color: #333333;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cadastro {
+  text-align: center;
+  font-size: 12px;
+  margin-top: -20px; 
+}

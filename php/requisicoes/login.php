@@ -1,8 +1,8 @@
 <?php
-require_once "AdminAuthenticationHandler.php";
-require_once 'LogSingleton.php';
-require_once "cadastrosStrategy.php";
-require_once "conect.php";
+require_once "../padroes/AdminAuthenticationHandler.php";
+require_once '../padroes/LogSingleton.php';
+require_once "../padroes/cadastrosStrategy.php";
+require_once "../conexao/conect.php";
 
 
 class Login
@@ -19,10 +19,10 @@ class Login
     {
         $tipoAutenticacao = $this->adminHandler->handleAuthentication($email, $senha);
         if ($tipoAutenticacao === "admin") {
-            header("Location: admin_page.php?email=" . urlencode($email));
+            header("Location: ../index/admin_page.php?email=" . urlencode($email));
             exit;
         } elseif ($tipoAutenticacao === "user") {
-            header("Location: index_perfil.php?email=" . urlencode($email));
+            header("Location: ../index/index_perfil.php?email=" . urlencode($email));
             exit;
         } else {
             //header("Location: ../html/cadastro.html?erro=1"); 

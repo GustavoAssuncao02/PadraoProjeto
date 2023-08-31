@@ -1,9 +1,9 @@
 <?php
-require_once "AdminAuthenticationHandler.php";
-require_once 'LogSingleton.php';
-require_once "cadastrosStrategy.php";
-require_once "conect.php";
-require_once "facade.php";
+require_once "../padroes/AdminAuthenticationHandler.php";
+require_once '../padroes/LogSingleton.php';
+require_once "../padroes/cadastrosStrategy.php";
+require_once "../conexao/conect.php";
+require_once "../padroes/facade.php";
 
 class excluirUsuario
 {

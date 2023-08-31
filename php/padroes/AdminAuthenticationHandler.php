@@ -1,5 +1,5 @@
 <?php
-require_once "conect.php";
+require_once "../conexao/conect.php";
 interface AuthenticationHandler {
     public function setSuccessor(AuthenticationHandler $successor);
     public function handleAuthentication($email, $senha);

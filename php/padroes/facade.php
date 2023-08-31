@@ -1,13 +1,13 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-require_once "conect.php";
+require_once "../conexao/conect.php";
 require_once "AdminAuthenticationHandler.php";
 require_once 'LogSingleton.php';
 require_once "cadastrosStrategy.php";
-require_once "editarUsuario.php";
-require_once "login.php";
-require_once "excluirUsuario.php";
+require_once "../requisicoes/editarUsuario.php";
+require_once "../requisicoes/login.php";
+require_once "../requisicoes/excluirUsuario.php";
 class Facade
 {   
     public $excluirUsuario;

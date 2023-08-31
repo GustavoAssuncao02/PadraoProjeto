@@ -1,8 +1,8 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-require_once "conect.php";
-require_once "AdminAuthenticationHandler.php"; // Certifique-se de incluir os arquivos necessários
+require_once "../conexao/conect.php";
+require_once "AdminAuthenticationHandler.php";
 require_once 'LogSingleton.php';
 require_once "cadastroStrategy.php";
 class CadastroPadrao implements CadastroStrategy
@@ -22,7 +22,7 @@ class CadastroPadrao implements CadastroStrategy
 
         if ($stmt->execute()) {
             $log->logEvent("Novo usuário cadastrado: $nome $cpf");
-            echo '<script>setTimeout(function(){ window.location.href = "../html/index.html"; }, 2000);</script>';
+            echo '<script>setTimeout(function(){ window.location.href = "../../html/index.html"; }, 2000);</script>';
             return true;
         } else {
             $log->logEvent("Erro no cadastro: " . $stmt->error);
@@ -49,7 +49,7 @@ class CadastroAdm implements CadastroStrategy
 
         if ($stmt->execute()) {
             $log->logEvent("Novo usuário cadastrado: $nome $cpf");
-            echo '<script>setTimeout(function(){ window.location.href = "../html/index.html"; }, 2000);</script>';
+            echo '<script>setTimeout(function(){ window.location.href = "../../html/index.html"; }, 2000);</script>';
             return true;
         } else {
             $log->logEvent("Erro no cadastro: " . $stmt->error);

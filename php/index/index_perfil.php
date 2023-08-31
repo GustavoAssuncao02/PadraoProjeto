@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Gustavo Assunção da Silva e Pedro Lucas N. de Aguiar">
-    <link rel="stylesheet" href="../css/estilogeral.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="icon" href="../img/icon.svg">
+    <link rel="stylesheet" href="../../css/estilogeral.css">
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="icon" href="../../img/icon.svg">
     <title>Home</title>
 </head>
 
@@ -24,7 +24,7 @@
         <div class="animação2">
             <h3>Crie sua conta para ter acesso a descontos exlcusivos</h3>
         </div>
-        <img class="teclado" src="../img/telcado.png" alt="Teclado"> 
+        <img class="teclado" src="../../img/telcado.png" alt="Teclado"> 
     </div>
 
     <div class="SegundaParte">
@@ -44,11 +44,11 @@
         perfilLink.href = `perfil_usuario.php?email=${encodeURIComponent(emailParam)}`;
     
         function redirectToIndex() {
-            window.location.href = `../html/index.html?email=${encodeURIComponent(emailParam)}`;
+            window.location.href = `../../html/index.html?email=${encodeURIComponent(emailParam)}`;
         }
         
         const homeLink = document.getElementById('homeLink');
-        homeLink.href = `../html/index.html?email=${encodeURIComponent(emailParam)}`;
+        homeLink.href = `../../html/index.html?email=${encodeURIComponent(emailParam)}`;
         homeLink.addEventListener('click', redirectToIndex);
     </script>
 

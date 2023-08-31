@@ -1,8 +1,8 @@
 <?php
-require_once "AdminAuthenticationHandler.php";
-require_once 'LogSingleton.php';
-require_once "cadastrosStrategy.php";
-require_once "conect.php";
+require_once "../padroes/AdminAuthenticationHandler.php";
+require_once '../padroes/LogSingleton.php';
+require_once "../padroes/cadastrosStrategy.php";
+require_once "../conexao/conect.php";
 
 class editarUsuario
 {
@@ -23,7 +23,7 @@ class editarUsuario
         $logInstance->logEvent($logMessage);
 
 
-        header("Location: perfil_usuario.php?email=" . urlencode($emailAtualizado));
+        header("Location: ../index/perfil_usuario.php?email=" . urlencode($emailAtualizado));
         exit;
     }
 }
