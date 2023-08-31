@@ -210,3 +210,43 @@ Senha alterada.
 [2023-08-31 13:20:45] Novo usuário cadastrado: teste100 123.123.123-12
 [2023-08-31 13:30:32] Novo usuário cadastrado: teste1000 123.123.123-12
 [2023-08-31 13:43:51] Novo usuário cadastrado: teste23123 123.123.123-12
+[2023-08-31 16:20:16] Usuário  editou o perfil: 
+Nome alterado para - Gustavo0, 
+Data de nascimento alterada para - 1111-12-13, 
+Senha alterada.
+[2023-08-31 16:21:52] Usuário  editou o perfil: 
+Nome alterado para - Gustavo0, 
+Data de nascimento alterada para - 1112-10-12, 
+Senha alterada.
+[2023-08-31 16:38:34] Novo usuário cadastrado: teste40 123.123.123-12
+[2023-08-31 16:43:35] Usuário  editou o perfil: 
+Nome alterado para - teste400, 
+Data de nascimento alterada para - 0000-00-00, 
+Senha alterada.
+[2023-08-31 16:44:18] Usuário  editou o perfil: 
+Nome alterado para - teste400, 
+Data de nascimento alterada para - 0000-00-00, 
+Senha alterada.
+[2023-08-31 16:44:37] Usuário  editou o perfil: 
+Nome alterado para - teste400, 
+Data de nascimento alterada para - 2002-10-10
+, 
+Senha alterada.
+[2023-08-31 17:04:51] Usuário  editou o perfil: 
+Nome alterado para - , 
+Data de nascimento alterada para - , 
+Senha alterada.
+[2023-08-31 17:05:04] Usuário  editou o perfil: 
+Nome alterado para - , 
+Data de nascimento alterada para - , 
+Senha alterada.
+[2023-08-31 17:16:50] Novo usuário cadastrado: teste400 111.111.111-11
+[2023-08-31 17:17:14] Novo usuário cadastrado: teste500 202.020.202-02
+[2023-08-31 17:19:14] Usuário  editou o perfil: 
+Nome alterado para - gustavo0000, 
+Data de nascimento alterada para - 2010-10-110, 
+Senha alterada.
+[2023-08-31 17:22:19] Usuário  editou o perfil: 
+Nome alterado para - gustavo0000, 
+Data de nascimento alterada para - 2010-10-10, 
+Senha alterada.

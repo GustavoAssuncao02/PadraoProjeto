@@ -53,7 +53,7 @@
                         echo "<td>" . $row["cpf"] . "</td>";
                         echo "<td>" . $row["dataNascimento"] . "</td>";
                         echo "<td>" . $row["senha"] . "</td>";
-                        echo "<td><a href='facade_excluir_usuario.php?id=" . $row["id"] . "'>Excluir</a></td>";
+                        echo "<td><a href='realizarExclusao.php?id=" . $row["id"] . "'>Excluir</a></td>";
                         echo "</tr>";
                     }
                 } else {

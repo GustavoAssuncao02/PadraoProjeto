@@ -54,7 +54,7 @@
       <div class="back">
         <h2 class="title"><i>Entrar na Conta</i></h2>
         <img id="imagemLogin" src="../img/PerfilLogin.png" alt="IconLogin">
-        <form id="formLogin" action="facade_login.php" method="POST">
+        <form id="formLogin" action="realizarLogin.php" method="POST">
           <div class="usernamelog">
             <label id="title" for="nomelog">E-mail de Usuário</label>
             <br>
