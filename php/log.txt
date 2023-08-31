@@ -1,0 +1,10 @@
+[2023-08-31 00:57:10] Novo usuário cadastrado: pedro lucasss
+[2023-08-31 04:08:24] Novo usuário cadastrado: Gustavo02
+[2023-08-31 04:11:07] Usuário  editou o perfil: 
+Nome alterado para - Gustavo teste, 
+Data de nascimento alterada para - 2010-10-10, 
+Senha alterada.
+[2023-08-31 05:39:57] Novo usuário cadastrado: Testando
+[2023-08-31 06:03:52] Novo usuário cadastrado: teste1 111.111.111-22
+[2023-08-31 06:23:11] Novo usuário cadastrado: teste3 333.333.333-33
+[2023-08-31 06:24:15] Novo usuário cadastrado: teste4 444.444.444-44

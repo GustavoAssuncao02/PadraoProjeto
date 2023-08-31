@@ -1,1 +1,0 @@
-RENAME TABLE site TO pjfinal;
