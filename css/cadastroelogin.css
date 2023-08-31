@@ -58,6 +58,15 @@ section {
   z-index: 1;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center; /* Opcional: centraliza os botões horizontalmente */
+}
+
+.flex-button {
+  margin: 5px; /* Opcional: para espaçamento entre os botões */
+}
+
 #login-form {
   --size: 300px;
   display: flex;

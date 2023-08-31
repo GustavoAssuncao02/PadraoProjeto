@@ -207,3 +207,6 @@ Senha alterada.
 Nome alterado para - teste100, 
 Data de nascimento alterada para - 2002-10-12, 
 Senha alterada.
+[2023-08-31 13:20:45] Novo usuário cadastrado: teste100 123.123.123-12
+[2023-08-31 13:30:32] Novo usuário cadastrado: teste1000 123.123.123-12
+[2023-08-31 13:43:51] Novo usuário cadastrado: teste23123 123.123.123-12

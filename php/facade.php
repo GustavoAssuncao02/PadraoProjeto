@@ -4,8 +4,11 @@ ini_set('display_errors', 1);
 require_once "conect.php";
 require_once "AdminAuthenticationHandler.php"; // Certifique-se de incluir os arquivos necessários
 require_once 'LogSingleton.php';
+require_once "cadastrosStrategy.php";
 class Facade
 {
+    public $cadastroStrategy2;
+    public $cadastroStrategy;
     public $adminHandler;
     public $userHandler;
 
@@ -16,6 +19,8 @@ class Facade
 
         // Configure a cadeia de responsabilidade
         $this->adminHandler->setSuccessor($this->userHandler);
+        $this->cadastroStrategy = new CadastroPadrao();
+        $this->cadastroStrategy2 = new CadastroAdm();
     }
 
     public function login($email, $senha)
@@ -70,30 +75,14 @@ class Facade
         exit;
     
     }
-
-    public function cadastrarUsuario($nome, $senha, $email, $data, $cpf)
-    {
-        $administrador = 0;
-
-    $dbConnection = DatabaseConnection::getInstance();
-    $conn = $dbConnection->getConnection();
-
-    $query = "INSERT INTO projeto_final.trabalhofinal (nome, senha, email, dataNascimento, cpf, administrador) VALUES (?, ?, ?, ?, ?, ?)";
-    $stmt = $conn->prepare($query);
-    $stmt->bind_param("sssssi", $nome, $senha, $email, $data, $cpf, $administrador);
-
-    $log = LogSingleton::getInstance();
-
-    if ($stmt->execute()) {
-        $log->logEvent("Novo usuário cadastrado: $nome $cpf");
-        echo '<script>setTimeout(function(){ window.location.href = "../html/index.html"; }, 2000);</script>';
-        return true;
-    } else {
-        $log->logEvent("Erro no cadastro: " . $stmt->error);
-        echo "Erro no cadastro: " . $stmt->error;
-        return false;
+    public function cadastrarUsuario($nome, $senha, $email, $data, $cpf) {
+        return $this->cadastroStrategy->cadastrar($nome, $senha, $email, $data, $cpf);
     }
+    public function cadastrarAdm($nome, $senha, $email, $data, $cpf) {
+        return $this->cadastroStrategy2->cadastrar($nome, $senha, $email, $data, $cpf);
     }
+
+    
 }
 
 

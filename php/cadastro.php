@@ -20,7 +20,7 @@
             <div class="eye"></div>
           </div>
         </div>
-        <form id="formCadastro" action="facade_cadastro.php" method="POST">
+        <form id="formCadastro" action="" method="POST">
           <div class="username">
             <label for="nome">Nome de Cadastro</label>
             <input name="nome" id="nome" type="text" placeholder="Nome de Usuário" maxlength="20" required>
@@ -41,7 +41,9 @@
               <label for="cpf">Digite o CPF:</label><br>
               <input type="text" name="cpf" id="cpf" maxlength="14" required>
             </div>
-          <button type="submit" id="buttonCadastro">Cadastrar</button>
+            <div class="button-container">
+          <button type="submit" id="buttonCadastro" class="flex-button" formaction="cadastroUsuario.php">Cadastrar</button>
+          <button type="submit" id="buttonCadastro" formaction="cadastroAdm.php">Cadastrar adiministrador</button></div>
         </form>
         
         <label class="cadastrar">Já é Cadastrado? Então Clique Aqui:</label>
