@@ -1,6 +1,5 @@
 <?php
 require_once "conect.php";
-require_once "AdminAuthenticationHandler.php";
 interface AuthenticationHandler {
     public function setSuccessor(AuthenticationHandler $successor);
     public function handleAuthentication($email, $senha);
@@ -27,17 +26,20 @@ class AdminAuthenticationHandler implements AuthenticationHandler {
             if ($usuario['administrador'] == 1) {
                 return "admin";
             }
-        } elseif ($this->successor) {
+        } 
+        
+        if ($this->successor) {
             return $this->successor->handleAuthentication($email, $senha);
-        } else {
-            return false;
         }
+        
+        return false;
     }
-    
 }
+
 
 class UserAuthenticationHandler implements AuthenticationHandler {
     public $successor;
+
     public function setSuccessor(AuthenticationHandler $successor) {
         $this->successor = $successor;
     }
@@ -54,9 +56,11 @@ class UserAuthenticationHandler implements AuthenticationHandler {
         if ($resultado->num_rows > 0) {
             $usuario = $resultado->fetch_assoc();
             if ($usuario['administrador'] == 0) {
-                return "user";
-            } 
-        } elseif ($this->successor) {
+                return "user";  
+            }
+        }
+
+        if ($this->successor) {
             return $this->successor->handleAuthentication($email, $senha);
         } else {
             return false; 

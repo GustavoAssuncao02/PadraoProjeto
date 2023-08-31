@@ -20,14 +20,14 @@
             <div class="eye"></div>
           </div>
         </div>
-        <form id="formCadastro" action="processar_cadastro.php" method="POST">
+        <form id="formCadastro" action="facade_cadastro.php" method="POST">
           <div class="username">
             <label for="nome">Nome de Cadastro</label>
             <input name="nome" id="nome" type="text" placeholder="Nome de Usuário" maxlength="20" required>
           </div>
           <div class="password">
             <label for="senha">Senha de Cadastro</label>
-            <input name="senha" id="senha" type="password" placeholder="Senha" require>
+            <input name="senha" id="senha" type="password" placeholder="Senha" required>
           </div>
           <div class="email">
             <label for="email">E-mail de Cadastro</label>
@@ -52,7 +52,7 @@
       <div class="back">
         <h2 class="title"><i>Entrar na Conta</i></h2>
         <img id="imagemLogin" src="../img/PerfilLogin.png" alt="IconLogin">
-        <form id="formLogin" action="processar_login.php" method="POST">
+        <form id="formLogin" action="facade_login.php" method="POST">
           <div class="usernamelog">
             <label id="title" for="nomelog">E-mail de Usuário</label>
             <br>

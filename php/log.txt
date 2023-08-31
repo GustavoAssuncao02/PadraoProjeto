@@ -8,3 +8,202 @@ Senha alterada.
 [2023-08-31 06:03:52] Novo usuário cadastrado: teste1 111.111.111-22
 [2023-08-31 06:23:11] Novo usuário cadastrado: teste3 333.333.333-33
 [2023-08-31 06:24:15] Novo usuário cadastrado: teste4 444.444.444-44
+[2023-08-31 09:10:10] Usuário  editou o perfil: 
+Nome alterado para - Gustavo022, 
+Data de nascimento alterada para - 1111-11-11, 
+Senha alterada.
+[2023-08-31 09:10:44] Usuário  editou o perfil: 
+Nome alterado para - Gustavo022, 
+Data de nascimento alterada para - 1111-12-13, 
+Senha alterada.
+[2023-08-31 09:10:55] Usuário  editou o perfil: 
+Nome alterado para - Gustavo022, 
+Data de nascimento alterada para - 1111-12-13, 
+Senha alterada.
+[2023-08-31 09:20:27] Erro no cadastro: Column 'nome' cannot be null
+[2023-08-31 09:21:13] Erro no cadastro: Column 'nome' cannot be null
+[2023-08-31 09:23:39] Erro no cadastro: Column 'nome' cannot be null
+[2023-08-31 09:24:32] Erro no cadastro: Column 'nome' cannot be null
+[2023-08-31 09:25:22] Erro no cadastro: Column 'nome' cannot be null
+[2023-08-31 09:32:53] Erro no cadastro: Column 'nome' cannot be null
+[2023-08-31 09:33:05] Erro no cadastro: Column 'nome' cannot be null
+[2023-08-31 09:33:16] Erro no cadastro: Column 'nome' cannot be null
+[2023-08-31 09:34:17] Erro no cadastro: Column 'nome' cannot be null
+[2023-08-31 09:34:45] Erro no cadastro: Column 'nome' cannot be null
+[2023-08-31 09:34:53] Erro no cadastro: Column 'nome' cannot be null
+[2023-08-31 09:35:13] Erro no cadastro: Column 'nome' cannot be null
+[2023-08-31 09:37:30] Novo usuário cadastrado: Gustavo12121 123.123.123-12
+[2023-08-31 09:37:55] Novo usuário cadastrado: teste4 312.312.312-31
+[2023-08-31 09:38:50] Novo usuário cadastrado: teste5 312.313.131-22
+[2023-08-31 10:09:16] Usuário  editou o perfil: 
+Nome alterado para - Gustavo2, 
+Data de nascimento alterada para - 1111-12-13, 
+Senha alterada.
+[2023-08-31 10:10:15] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:11:46] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:11:58] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:12:20] Usuário  editou o perfil: 
+Nome alterado para - teste5, 
+Data de nascimento alterada para - 3333-02-22, 
+Senha alterada.
+[2023-08-31 10:12:25] Usuário  editou o perfil: 
+Nome alterado para - teste5, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:14:05] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:18:45] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:19:56] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:20:04] Usuário  editou o perfil: 
+Nome alterado para - teste5, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:20:40] Usuário  editou o perfil: 
+Nome alterado para - test0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:24:31] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:24:46] Usuário  editou o perfil: 
+Nome alterado para - teste5, 
+Data de nascimento alterada para - 2222-02-23, 
+Senha alterada.
+[2023-08-31 10:25:18] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:27:21] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:28:45] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:29:08] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:31:08] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:34:46] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:35:29] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:35:31] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:36:29] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:38:39] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:39:46] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:40:01] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:42:20] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:43:30] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2200-02-00, 
+Senha alterada.
+[2023-08-31 10:44:24] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2200-02-00, 
+Senha alterada.
+[2023-08-31 10:44:40] Usuário  editou o perfil: 
+Nome alterado para - teste1, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:46:41] Usuário  editou o perfil: 
+Nome alterado para - teste9, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:46:56] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:47:01] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-22, 
+Senha alterada.
+[2023-08-31 10:47:09] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 2222-02-00, 
+Senha alterada.
+[2023-08-31 10:47:14] Usuário  editou o perfil: 
+Nome alterado para - teste0, 
+Data de nascimento alterada para - 0000-00-00, 
+Senha alterada.
+[2023-08-31 10:48:25] Usuário  editou o perfil: 
+Nome alterado para - teste9, 
+Data de nascimento alterada para - 1212-10-10, 
+Senha alterada.
+[2023-08-31 10:48:42] Usuário  editou o perfil: 
+Nome alterado para - teste9, 
+Data de nascimento alterada para - 1212-10-10, 
+Senha alterada.
+[2023-08-31 10:59:21] Usuário  editou o perfil: 
+Nome alterado para - teste10, 
+Data de nascimento alterada para - 2002-10-10, 
+Senha alterada.
+[2023-08-31 10:59:29] Usuário  editou o perfil: 
+Nome alterado para - teste10, 
+Data de nascimento alterada para - 2002-10-10, 
+Senha alterada.
+[2023-08-31 10:59:37] Usuário  editou o perfil: 
+Nome alterado para - teste10, 
+Data de nascimento alterada para - 2002-10-10, 
+Senha alterada.
+[2023-08-31 10:59:37] Usuário  editou o perfil: 
+Nome alterado para - teste10, 
+Data de nascimento alterada para - 2002-10-10, 
+Senha alterada.
+[2023-08-31 10:59:41] Usuário  editou o perfil: 
+Nome alterado para - teste10, 
+Data de nascimento alterada para - 2002-10-10, 
+Senha alterada.
+[2023-08-31 11:02:09] Usuário  editou o perfil: 
+Nome alterado para - teste10, 
+Data de nascimento alterada para - 2002-10-10, 
+Senha alterada.
+[2023-08-31 11:02:22] Usuário  editou o perfil: 
+Nome alterado para - teste100, 
+Data de nascimento alterada para - 2002-10-12, 
+Senha alterada.

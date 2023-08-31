@@ -54,7 +54,7 @@ if ($resultado->num_rows === 1) {
     <div class="PrimeiraParte">
         <h1 class="animação">Bem-vindo ao Seu Perfil</h1>
         <div class="animação2">
-            <form id="perfilForm" method="post" action="processar_atualizacao.php">
+            <form id="perfilForm" method="post" action="facade_atualizar.php">
                 <fieldset class="informacao">
                     <legend><h5>Informações do Usuário</h5></legend>
                     <div>
@@ -126,7 +126,7 @@ if ($resultado->num_rows === 1) {
             formData.append("dataNascimento", novoDataNascimento);
             formData.append("senha", novoSenha);
 
-            fetch('processar_atualizacao.php', { method: 'POST', body: formData })
+            fetch('facade_atualizar.php', { method: 'POST', body: formData })
                 .then(response => {
                     if (response.ok) {
                         console.log("Dados atualizados com sucesso!");
